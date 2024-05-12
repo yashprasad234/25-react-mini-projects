@@ -16,6 +16,7 @@ export default function ImageSlider({ url, page = 1, limit = 5 }) {
       setLoading(false);
     } catch (error) {
       console.log(error);
+      setLoading(false);
     }
   };
 
