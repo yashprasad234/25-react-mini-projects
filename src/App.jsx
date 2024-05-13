@@ -2,6 +2,7 @@ import Accordion from "./components/accordion/index";
 import FileExplorer from "./components/file-explorer";
 import ImageSlider from "./components/image-slider";
 import LoadMoreData from "./components/load-more";
+import QrGenerator from "./components/qrcode-generator";
 import RandomColor from "./components/random-color";
 import StarRating from "./components/star-rating";
 
@@ -19,7 +20,9 @@ function App() {
       {/* Load more data component */}
       {/* <LoadMoreData /> */}
       {/* File explorer component */}
-      <FileExplorer />
+      {/* <FileExplorer /> */}
+      {/* QR code generator */}
+      <QrGenerator />
     </>
   );
 }
