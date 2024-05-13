@@ -1,4 +1,5 @@
 import Accordion from "./components/accordion/index";
+import FileExplorer from "./components/file-explorer";
 import ImageSlider from "./components/image-slider";
 import LoadMoreData from "./components/load-more";
 import RandomColor from "./components/random-color";
@@ -16,7 +17,9 @@ function App() {
       {/* Image Slider component */}
       {/* <ImageSlider url={"https://picsum.photos/v2/list"} page={1} limit={5} /> */}
       {/* Load more data component */}
-      <LoadMoreData />
+      {/* <LoadMoreData /> */}
+      {/* File explorer component */}
+      <FileExplorer />
     </>
   );
 }
