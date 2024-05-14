@@ -5,6 +5,7 @@ import LightDarkMode from "./components/light-dark-mode";
 import LoadMoreData from "./components/load-more";
 import QrGenerator from "./components/qrcode-generator";
 import RandomColor from "./components/random-color";
+import ScrollIndicator from "./components/scroll-indicator";
 import StarRating from "./components/star-rating";
 
 function App() {
@@ -32,7 +33,10 @@ function App() {
       {/* <QrGenerator /> */}
 
       {/* Light Dark Theme Switch */}
-      <LightDarkMode />
+      {/* <LightDarkMode /> */}
+
+      {/* Scroll Indicator */}
+      <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
     </>
   );
 }

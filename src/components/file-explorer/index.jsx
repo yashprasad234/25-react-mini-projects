@@ -1,4 +1,4 @@
-import "./styles.css";
+import "./file.css";
 import explorer from "./data";
 import { useState } from "react";
 
