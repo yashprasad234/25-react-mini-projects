@@ -1,4 +1,5 @@
 import Accordion from "./components/accordion/index";
+import Tabs from "./components/custom-tabs/tabs";
 import FileExplorer from "./components/file-explorer";
 import ImageSlider from "./components/image-slider";
 import LightDarkMode from "./components/light-dark-mode";
@@ -29,14 +30,17 @@ function App() {
       {/* File explorer component */}
       {/* <FileExplorer /> */}
 
-      {/* QR code generator */}
+      {/* QR code generator component*/}
       {/* <QrGenerator /> */}
 
-      {/* Light Dark Theme Switch */}
+      {/* Light Dark Theme Switch component*/}
       {/* <LightDarkMode /> */}
 
-      {/* Scroll Indicator */}
-      <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
+      {/* Scroll Indicator component*/}
+      {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
+
+      {/* Custom Tabs component*/}
+      <Tabs />
     </>
   );
 }
